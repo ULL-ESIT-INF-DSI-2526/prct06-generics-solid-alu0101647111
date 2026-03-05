@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772729455547" clover="3.2.0">
-  <project timestamp="1772729455547" name="All files">
+<coverage generated="1772730328397" clover="3.2.0">
+  <project timestamp="1772730328398" name="All files">
     <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="10" coveredelements="10" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
     <file name="index.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/index.ts">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
