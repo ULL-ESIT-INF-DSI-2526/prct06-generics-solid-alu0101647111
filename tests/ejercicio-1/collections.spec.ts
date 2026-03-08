@@ -26,6 +26,12 @@ describe('Academia Jedi - Pruebas de Registro Galáctico', () => {
       const masters = jediOrder.findByPowerOrClass('Master');
       expect(masters.some(j => j.name === 'Mace Windu')).toBe(true);
     });
+
+    it('filtrar por año de entrenamiento', () => {
+      const oldJedi = jediOrder.findByDate(-800);
+      expect(oldJedi).toHaveLength(1);
+      expect(oldJedi[0].name).toBe('Yoda');
+    });
   });
 
   describe('StarshipCollection', () => {
@@ -48,6 +54,16 @@ describe('Academia Jedi - Pruebas de Registro Galáctico', () => {
     it('debería heredar correctamente la búsqueda por nombre de la clase base', () => {
       const results = fleet.findByName('Wing');
       expect(results[0].id).toBe('s1');
+    });
+
+    it('debería filtrar por afiliación', () => {
+      const republicShips = fleet.findByAffiliation('Republic');
+      expect(republicShips).toHaveLength(1);
+    });
+
+    it('filrar por dia', () => {
+      const results = fleet.findByDate(0);
+      expect(results).toHaveLength(1);
     });
   });
 
@@ -74,6 +90,14 @@ describe('Academia Jedi - Pruebas de Registro Galáctico', () => {
       expect(shelf.getAll()).toHaveLength(1);
       shelf.remove('temp');
       expect(shelf.getAll()).toHaveLength(0);
+    });
+
+    it ('filtrar por fecha', () => {
+      const shelf = new HolocronCollection();
+      shelf.add({ id: 'h2', name: 'Old Holocron', powerLevel: 5, creationYear: -1000 });
+      const oldOnes = shelf.findByDate(-1000);
+      expect(oldOnes).toHaveLength(1);
+      expect(oldOnes[0].name).toBe('Old Holocron');
     });
   });
 });
