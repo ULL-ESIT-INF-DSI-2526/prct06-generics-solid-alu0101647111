@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772730328397" clover="3.2.0">
-  <project timestamp="1772730328398" name="All files">
-    <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3" elements="10" coveredelements="10" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
-    <file name="index.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/index.ts">
+<coverage generated="1772988735440" clover="3.2.0">
+  <project timestamp="1772988735441" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12" elements="28" coveredelements="28" complexity="0" loc="14" ncloc="14" packages="3" files="10" classes="10"/>
+    <package name="src">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
-      <line num="11" count="2" type="stmt"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="39" count="1" type="stmt"/>
-      <line num="41" count="2" type="stmt"/>
-    </file>
+      <file name="index.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-3">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="area.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-3/area.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+      <file name="circle.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-3/circle.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="rectangle.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-3/rectangle.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+      <file name="shape.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-3/shape.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="triangle.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-3/triangle.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-4">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="basicprinter.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-4/basicprinter.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="faxmachine.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-4/faxmachine.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="printer.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-4/printer.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="scanner.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-4/scanner.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
   </project>
 </coverage>
