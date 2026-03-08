@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1772988735440" clover="3.2.0">
-  <project timestamp="1772988735441" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="2" coveredconditionals="2" methods="12" coveredmethods="12" elements="28" coveredelements="28" complexity="0" loc="14" ncloc="14" packages="3" files="10" classes="10"/>
+<coverage generated="1772995557520" clover="3.2.0">
+  <project timestamp="1772995557521" name="All files">
+    <metrics statements="35" coveredstatements="31" conditionals="4" coveredconditionals="4" methods="38" coveredmethods="30" elements="77" coveredelements="65" complexity="0" loc="35" ncloc="35" packages="5" files="15" classes="15"/>
     <package name="src">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="index.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/index.ts">
@@ -11,6 +11,32 @@
         <line num="38" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="39" count="1" type="stmt"/>
         <line num="41" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-1">
+      <metrics statements="14" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="22" coveredmethods="14"/>
+      <file name="basiccollection.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-1/basiccollection.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="20" count="7" type="stmt"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+      </file>
+      <file name="collections.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-1/collections.ts">
+        <metrics statements="8" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="16" coveredmethods="8"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+      </file>
+      <file name="galacticregistry.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-1/galacticregistry.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.ejercicio-3">
@@ -53,6 +79,22 @@
       </file>
       <file name="scanner.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-4/scanner.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.ejercicio-5">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="mysqlrepository.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-5/mysqlrepository.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+      <file name="userrespository.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicio-5/userrespository.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
       </file>
     </package>
   </project>
