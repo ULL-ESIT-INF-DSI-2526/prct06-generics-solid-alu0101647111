@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1773056005967" clover="3.2.0">
-  <project timestamp="1773056005968" name="All files">
+<coverage generated="1773056909832" clover="3.2.0">
+  <project timestamp="1773056909832" name="All files">
     <metrics statements="80" coveredstatements="80" conditionals="24" coveredconditionals="24" methods="61" coveredmethods="61" elements="165" coveredelements="165" complexity="0" loc="80" ncloc="80" packages="6" files="19" classes="19"/>
     <package name="src">
       <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
@@ -114,24 +114,24 @@
         <line num="42" count="1" type="stmt"/>
         <line num="47" count="1" type="stmt"/>
         <line num="52" count="1" type="stmt"/>
-        <line num="59" count="3" type="stmt"/>
-        <line num="66" count="4" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+        <line num="66" count="5" type="stmt"/>
       </file>
       <file name="history.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicioclase-1/history.ts">
         <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="18" count="4" type="stmt"/>
-        <line num="26" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="18" count="11" type="stmt"/>
+        <line num="26" count="7" type="cond" truecount="4" falsecount="0"/>
         <line num="27" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="38" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="38" count="4" type="cond" truecount="4" falsecount="0"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="48" count="4" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
-        <line num="61" count="1" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="48" count="8" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="59" count="3" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
         <line num="68" count="3" type="stmt"/>
       </file>
       <file name="podcast.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicioclase-1/podcast.ts">
@@ -150,8 +150,8 @@
         <line num="53" count="1" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
         <line num="63" count="1" type="stmt"/>
-        <line num="70" count="1" type="stmt"/>
-        <line num="77" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="77" count="4" type="stmt"/>
       </file>
       <file name="reproducible.ts" path="/home/usuario/prct06-generics-solid-alu0101647111/src/ejercicioclase-1/reproducible.ts">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
